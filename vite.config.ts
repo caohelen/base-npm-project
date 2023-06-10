@@ -7,7 +7,7 @@ export default defineConfig({
 	build: {
     lib: {
       entry: resolve(__dirname, './src/plugins/index.ts'),
-      name: '@wyg/process-detail',
+      name: '@caohenlen/process-detail',
       fileName: (format) => `build.${format}.ts`
     },
     rollupOptions: {
